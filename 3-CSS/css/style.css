@@ -1,0 +1,33 @@
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
+p {
+    color: blueviolet;
+}
+
+/* Algum comentário */
+/* Mais um comentário */
+/* Terceiro comentário */
+
+/* Classes */
+
+.paragraph {
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+
+/* ID */
+
+#exclusive-title {
+    background: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
