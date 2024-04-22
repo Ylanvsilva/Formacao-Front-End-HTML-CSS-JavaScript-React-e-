@@ -7,9 +7,9 @@ h3 {
     color: green;
 }
 
-p {
+/* p {
     color: blueviolet;
-}
+} */
 
 /* Algum comentário */
 /* Mais um comentário */
@@ -30,4 +30,175 @@ p {
     color: yellow;
     padding: 10px;
     font-size: 40px;
+}
+
+/* Ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+    border: 3px solid blue;
+}
+
+#algum-titulo {
+    border: 4px solid green;
+}
+
+/* Nome de cores */
+
+.color-name {
+    color: palegreen;
+}
+
+/* Hex */
+
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #1c8a94;
+}
+
+/* Aprofundando em Hex */
+
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(199, 21, 47);
+}
+
+/* RGBA */
+.rgba {
+    color: rgba(100, 199, 45, .3);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+
+.hsl-2 {
+    color: hsl(201, 44%, 69%)
+};
+
+/*  Background */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgba(200, 20, 40, 1);
+    color: #00eaff;
+}
+
+/* Opacity no bg */
+.bg.opacity {
+    background-color: green;
+    opacity: .2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    opacity: .8;
+};
+
+/* RGBA com opacidade */
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, .2);
+    color: black;
+}
+
+/* BG image */
+.bg-image {
+    background-image: url("../img/postura-plana-da-estacao-de-trabalho-com-espaco-de-copia-e-laptop.jpg");
+    padding: 10px;
+    color: white;
+}
+
+/* Centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/postura-plana-da-estacao-de-trabalho-com-espaco-de-copia-e-laptop.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+/* Largura e Altura */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
+
+/* Padding */
+.without-padding,
+.padding {
+    background-color: #111;
+    color: white;
+}
+
+.padding {
+    background-color: #888;
+    padding: 20px;
+}
+
+/* Padding individual */
+.padding-individual {
+    background-color: #222;
+    color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand padding */
+.shorthand-padding {
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding-2 {
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+/* Padding com width */
+.without-border-box {
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box {
+    background-color: #666;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
 }
